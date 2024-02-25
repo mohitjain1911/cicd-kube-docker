@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-In this project, we aim to implement a continuous delivery pipeline for Docker containers using tools like Jenkins, Docker Hub, Helm, and Kubernetes. The primary focus is on achieving automated building, testing, and deployment of Docker images to a Kubernetes Cluster.
+Welcome to the Continuous Delivery for Docker Containers project! In this initiative, we aim to implement a continuous delivery pipeline for Docker containers using tools like Jenkins, Docker Hub, Helm, and Kubernetes. The primary focus is on achieving automated building, testing, and deployment of Docker images to a Kubernetes Cluster.
 
 ## Project Objectives
 
@@ -15,8 +15,8 @@ In this project, we aim to implement a continuous delivery pipeline for Docker c
    - Install necessary Jenkins plugins for Docker pipeline support.
 
 3. **Kubernetes Cluster Creation:**
-   - Create a Kubernetes Cluster using Cops on an EC2 instance.
-   - Install Helm in the Cops VM for managing Kubernetes applications.
+   - Create a Kubernetes Cluster using Kops on an EC2 instance.
+   - Install Helm in the Kops VM for managing Kubernetes applications.
 
 4. **Helm Charts Creation and Testing:**
    - Develop Helm charts with variables for application images.
@@ -48,7 +48,7 @@ To address the challenges of manual deployment and time-consuming processes, we 
 - **Nexus:** Repository manager for storing artifacts.
 - **Docker Hub:** Docker image repository for hosting Docker images.
 - **Helm:** Kubernetes package manager for deploying applications.
-- **Kubernetes Cluster (Cops):** Container orchestration tool for managing Docker containers.
+- **Kubernetes Cluster (Kops):** Container orchestration tool for managing Docker containers.
 - **Git:** Version control system for tracking code changes.
 - **Maven:** Build tool for Java applications.
 - **Docker Engine:** Containerization platform for building and running Docker images.
@@ -64,8 +64,8 @@ To address the challenges of manual deployment and time-consuming processes, we 
    - Install necessary Jenkins plugins for Docker pipeline support.
 
 3. **Kubernetes Cluster Creation:**
-   - Create a Kubernetes Cluster using Cops on an EC2 instance.
-   - Install Helm in the Cops VM for Kubernetes application management.
+   - Create a Kubernetes Cluster using Kops on an EC2 instance.
+   - Install Helm in the Kops VM for Kubernetes application management.
 
 4. **Helm Charts Creation and Testing:**
    - Develop Helm charts for the application stack.
@@ -92,8 +92,8 @@ By implementing this continuous delivery pipeline, the project aims to automate 
 - Maven 3 or later
 - Docker installed on Jenkins
 - Docker Hub account
-- Kubernetes Cluster (Cops setup)
-- Helm installed on the Cops VM
+- Kubernetes Cluster (Kops setup)
+- Helm installed on the Kops VM
 - Git installed
 - SonarQube server configured
 
