@@ -4,35 +4,6 @@
 
 Welcome to the Continuous Delivery for Docker Containers project! In this initiative, we aim to implement a continuous delivery pipeline for Docker containers using tools like Jenkins, Docker Hub, Helm, and Kubernetes. The primary focus is on achieving automated building, testing, and deployment of Docker images to a Kubernetes Cluster.
 
-## Project Objectives
-
-1. **Continuous Integration Setup:**
-   - Establish a Jenkins-SonarQube-Nexus setup for continuous integration.
-   - Set up Docker Hub for managing Docker images.
-
-2. **Docker Engine Integration:**
-   - Configure Docker engine in Jenkins for seamless Docker image building.
-   - Install necessary Jenkins plugins for Docker pipeline support.
-
-3. **Kubernetes Cluster Creation:**
-   - Create a Kubernetes Cluster using Kops on an EC2 instance.
-   - Install Helm in the Kops VM for managing Kubernetes applications.
-
-4. **Helm Charts Creation and Testing:**
-   - Develop Helm charts with variables for application images.
-   - Test Helm charts in a Kubernetes cluster, ensuring proper functionality.
-
-5. **Jenkins Pipeline Configuration:**
-   - Create a declarative Jenkins pipeline code for the entire continuous delivery process.
-   - Incorporate build, test, Docker image creation, and Helm chart deployment stages.
-
-6. **Git Repository Update:**
-   - Update the Git repository with Helm charts, Dockerfile for the application image, and Jenkinsfile for the pipeline code.
-
-7. **Jenkins Job Creation:**
-   - Set up a Jenkins job for the created pipeline.
-   - Run and test the Jenkins job to validate the continuous delivery pipeline.
-
 ## Project Scenario
 
 The scenario involves a microservices architecture where developers make frequent code changes. The goal is to automate the entire process, from building Docker images to deploying them in a Kubernetes Cluster. This setup ensures that as developers commit code changes, an automated pipeline builds, tests, and deploys the updated Docker images.
