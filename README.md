@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Welcome to the Continuous Delivery for Docker Containers project! In this initiative, we aim to implement a continuous delivery pipeline for Docker containers using tools like Jenkins, Docker Hub, Helm, and Kubernetes. The primary focus is on achieving automated building, testing, and deployment of Docker images to a Kubernetes Cluster.
+In this project, we aim to implement a continuous delivery pipeline for Docker containers using tools like Jenkins, Docker Hub, Helm, and Kubernetes. The primary focus is on achieving automated building, testing, and deployment of Docker images to a Kubernetes Cluster.
 
 ## Project Scenario
 
